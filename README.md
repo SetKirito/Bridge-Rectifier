@@ -1,46 +1,42 @@
-# Симуляция Электрической Цепи с Генератором Переменного Тока, Мостовым Выпрямителем и Конденсатором
+# Electrical Circuit Simulation with AC Generator, Bridge Rectifier, and Capacitor
 
-Добро пожаловать в репозиторий проекта "Симуляция Электрической Цепи с Генератором Переменного Тока, Мостовым Выпрямителем и Конденсатором"! Этот проект представляет собой программу для моделирования упрощенного поведения электрической цепи, включающей в себя генератор переменного тока, мостовой выпрямитель и конденсатор. Программа разработана на платформе C# и предоставляет возможности для визуализации, сохранения и загрузки настроек, а также доступ к методической информации.
+Welcome to the repository of the "Electrical Circuit Simulation with AC Generator, Bridge Rectifier, and Capacitor" project! This project is a program for simulating the simplified behavior of an electrical circuit that includes an AC generator, a bridge rectifier, and a capacitor. The program is developed using C# and provides features for visualization, saving and loading settings, and accessing educational information.
 
-## Основные возможности
+## Key Features
 
-- **Генератор Переменного Тока:** Моделирование работы генератора переменного тока с настраиваемыми параметрами амплитуды, частоты и фазы сигнала.
-- **Мостовой Выпрямитель:** Симуляция работы мостового выпрямителя для преобразования переменного напряжения в постоянное.
-- **Конденсатор:** Имитация работы конденсатора, его зарядки и разрядки, с возможностью настройки емкости и времени зарядки.
-- **Визуализация:** Визуализация изменения напряжения во времени с помощью графиков.
-- **Сохранение и Загрузка Настроек:** Возможность сохранения и загрузки параметров схемы в INI файлы.
-- **Методическая Информация:** Доступ к образовательной информации о компонентах цепи и принципах их работы.
+- **AC Generator:** Simulate the operation of an AC generator with customizable parameters for amplitude, frequency, and phase of the signal.
+- **Bridge Rectifier:** Simulate the operation of a bridge rectifier to convert AC voltage to DC.
+- **Capacitor:** Emulate the behavior of a capacitor, including its charging and discharging, with options to adjust capacitance and charging time.
+- **Visualization:** Visualize voltage changes over time using graphs.
+- **Save and Load Settings:** Save and load circuit parameters to and from INI files.
+- **Educational Information:** Access educational content about the components of the circuit and how they work.
 
-## Инструкции по использованию
+## Instructions for Use
 
-1. Склонируйте репозиторий на свой компьютер или скачайте ZIP архив.
-2. Откройте проект в среде разработки C# (например, Visual Studio).
-3. Ознакомьтесь с кодом и структурой проекта.
-4. Запустите приложение и используйте интерфейс для настройки параметров схемы и визуализации изменения напряжения.
-5. Для сохранения и загрузки настроек используйте соответствующие пункты меню.
-6. Получите дополнительные сведения о компонентах схемы и их работе в разделе "Методическая Информация".
+1. Clone the repository to your computer or download the ZIP archive.
+2. Open the project in a C# development environment such as Visual Studio.
+3. Familiarize yourself with the code and project structure.
+4. Launch the application and use the interface to configure circuit parameters and visualize voltage changes.
+5. Use the respective menu items to save and load settings.
+6. Gain additional insights into circuit components and their operation in the "Educational Information" section.
 
-## Методическая Информация
+## Educational Information
 
-### Генератор Переменного Тока
+### AC Generator
 
-- Описание: Генератор переменного тока создает электрический сигнал, который меняется во времени с заданной амплитудой, частотой и фазой.
-- Параметры: Амплитуда, Частота, Фаза.
-- Методическая Информация: [Ссылка на информацию о генераторе переменного тока]
+- Description: The AC generator generates an electrical signal that varies over time with specified amplitude, frequency, and phase.
+- Parameters: Amplitude, Frequency, Phase.
 
-### Мостовой Выпрямитель
+### Bridge Rectifier
 
-- Описание: Мостовой выпрямитель используется для преобразования переменного напряжения в постоянное.
-- Методическая Информация: [Ссылка на информацию о мостовом выпрямителе]
+- Description: The bridge rectifier is used to convert AC voltage to DC.
 
-### Конденсатор
+### Capacitor
 
-- Описание: Конденсатор представляет собой электрическое устройство, способное хранить и выделять энергию в форме электрического заряда.
-- Параметры: Емкость, Время Зарядки.
-- Методическая Информация: [Ссылка на информацию о конденсаторе]
+- Description: A capacitor is an electrical device capable of storing and releasing energy in the form of an electric charge.
+- Parameters: Capacitance, Charging Time.
 
-### Обратная связь
+### Feedback
 
 - Telegram @animepridyrok
-- VK https://vk.com/animepridyrok
-
+- [VK](https://vk.com/animepridyrok)
