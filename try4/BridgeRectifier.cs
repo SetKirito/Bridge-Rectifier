@@ -13,19 +13,18 @@ namespace try4
         public BridgeRectifier()
         {
             diodes = new List<Diode>
-        {
-            new Diode(),
-            new Diode(),
-            new Diode(),
-            new Diode()
-        };
+            {
+                new Diode(),
+                new Diode(),
+                new Diode(),
+                new Diode()
+            };
         }
 
         public void ChangeDiode(int num, Diode diode)
         {
             diodes[num] = diode;
         }
-
         public double ReleaseVoltage(double voltage)
         {
             double voltage1 = diodes[0].CalculateVoltageDrop(voltage);

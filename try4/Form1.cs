@@ -387,11 +387,13 @@ namespace try4
 
         private void SavePropertiesToIni()
         {
-            fileManager.SavePropertiesToIni(ac, br, c);
+            fileManager.SavePropertiesToIni( ac, br, c);
+            fileManager.SaveComboBoxPropertiesToIni(comboBox1, comboBox2, comboBox3, comboBox4 );
         }
         private void LoadPropertiesFromIni()
         {
             fileManager.LoadPropertiesFromIni(ac, br, c);
+            fileManager.LoadComboBoxPropertiesFromIni(comboBox1, comboBox2, comboBox3, comboBox4);
         }
         private void OpenMethodInformationPdf()
         {
